@@ -1,0 +1,41 @@
+body{
+    background-color:#ABEBC6;
+    background-image: url('/static/img/Food.jpg')
+}
+
+div{
+    text-align: center;
+    padding:50px;
+    height: 400px;
+    width:850px;
+    background-color: #F8F9F9;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 150px;
+    
+}
+
+div p{
+
+    font: 30px Arial, sans-serif;
+}
+
+h1{
+    margin:25px;
+    color: #00008B;
+}
+
+.blinking{
+    animation:blinkingText 2.5s infinite;
+    padding-left: 23px;
+    font-size: 28px;
+}
+@keyframes blinkingText{
+    0%{     color: #E74C3C; }
+    20%{    color: #E74C3C; }
+    30%{    color: #E74C3C; }
+    60%{    color: transparent; }
+    70%{    color:#E74C3C;  }
+    80%{    color:#E74C3C; }
+    100%{   color: #E74C3C    }
+}
