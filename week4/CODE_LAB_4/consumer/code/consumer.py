@@ -22,4 +22,4 @@ def index():
 if __name__ == "__main__":
     
     port = os.environ.get("${CONSUMER_PORT}",'80')
-    app.run(host='0.0.0.0', port=port,debug=True)
+    app.run(host='0.0.0.0', port='80',debug=True)
