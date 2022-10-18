@@ -17,9 +17,8 @@ EXPOSE ${CONSUMER_PORT}
 #ENTRYPOINT [ "python3", "consumer.py" ]
 
 CMD [ "python3", "consumer.py" ]
-#CMD python3 consumer.py
 
 
 
 
-# CMD ["python3"]
+
