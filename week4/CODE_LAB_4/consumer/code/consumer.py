@@ -4,7 +4,7 @@ import requests
 import os
 import json
 
-took reference from below resources
+#took reference from below resources
 # https://stackoverflow.com/questions/39579666/how-to-set-background-image-on-flask-templates
 # https://pythonbasics.org/flask-template-data/
 # https://python-adv-web-apps.readthedocs.io/en/latest/flask3.html
