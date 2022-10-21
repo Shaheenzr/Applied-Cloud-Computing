@@ -1,0 +1,42 @@
+body{
+    background-color:whitesmoke;
+    background-image: url('/static/img/last.jpg');
+    
+}
+
+div{
+    text-align: center;
+    padding:50px;
+    height: 400px;
+    width:850px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    opacity:0.9;
+    margin:0 auto;
+    margin-top: 150px;    
+}
+
+div p{
+
+    font: 30px Arial, sans-serif;
+}
+
+h1{
+    margin:25px;
+    color: #00008B;
+}
+
+.blinking{
+    animation:blinkingText 2.5s infinite;
+    padding-left: 23px;
+    font-size: 30px;
+}
+@keyframes blinkingText{
+    0%{     color: red; }
+    20%{    color: red; }
+    30%{    color: #E74C3C; }
+    60%{    color: transparent; }
+    70%{    color:red;  }
+    80%{    color:red; }
+    100%{   color:red; }
+}
